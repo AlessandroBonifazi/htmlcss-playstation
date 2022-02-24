@@ -1,4 +1,13 @@
 /*** General ***/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
 
 /*** Utility ***/
 .h-15px {
@@ -13,6 +22,6 @@
 .h-80px {
     height: 80px;
 }
-.h-100px {
-    height: 100px;
+.h-600px {
+    height: 600px;
 }
