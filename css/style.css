@@ -28,17 +28,26 @@ body {
 .h-80px {
     height: 80px;
 }
+.h-100px {
+    height: 100px;
+}
 .h-200px {
     height: 200px;
 }
 .h-600px {
     height: 600px;
 }
+.h-700px {
+    height: 700px;
+}
 .ab-bg-grey {
     background-color: #bebcbb;
 }
 .ab-bg-blue {
     background-color: #161c3b;
+}
+.ab-bg-foot {
+    background-color: #00439c;
 }
 .round-13 {
     border-radius: 13px;
