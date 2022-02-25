@@ -30,11 +30,11 @@ a {
 }
 
 /* Hover */
-header:hover #hidden-row{
+/* header:hover #hidden-row{
     display: flex; 
     cursor: pointer;
-}
-/* .navbar-nav:hover #hidden-row {
+} */
+/* #navbarnav:hover #hidden-row {
     display: flex;
 } */
 
