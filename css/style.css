@@ -16,9 +16,17 @@ body {
     background-size: cover;
 }
 
-.nav-item.dropdown:hover .dropdown-menu{
-    display: block;
+#hidden-row {
+    display: none;
 }
+/* Hover */
+header:hover #hidden-row{
+    display: flex; 
+    cursor: pointer;
+}
+/* .navbar-nav:hover #hidden-row {
+    display: flex;
+} */
 
 .ab-accessories:hover {
     border-bottom: 2px solid #00439c;
@@ -31,8 +39,13 @@ body {
     bottom: 0px;
 }
 
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .ab-games:hover {
-    animation: move-up 0.7s linear;
+    animation: move-up 0.5s linear;
     animation-fill-mode: forwards;
     cursor: pointer;
 }
@@ -86,4 +99,3 @@ body {
     border-radius: 13px;
 }
 
-/*, dropdown, img vanno su on hover sotto :active, */
