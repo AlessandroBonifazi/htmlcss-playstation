@@ -1,20 +1,29 @@
 /*** General ***/
 body {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
-.jumbotron-top {
+.jumbotron {
     background-image: url("../img/jumbo-bg.png");
     background-position: center;
     background-size: cover;
 }
 
-.jumbotron-bottom {
+.banner {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;
 }
 
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.ab-accessories:hover {
+    border-bottom: 2px solid #00439c;
+    cursor: pointer;
+}
 /*** Utility ***/
 .h-15px {
     height: 15px;
@@ -34,6 +43,9 @@ body {
 .h-200px {
     height: 200px;
 }
+.h-400px {
+    height: 400px;
+}
 .h-600px {
     height: 600px;
 }
@@ -52,3 +64,5 @@ body {
 .round-13 {
     border-radius: 13px;
 }
+
+/*, dropdown, img vanno su on hover sotto :active, */

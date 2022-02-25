@@ -16,7 +16,7 @@
 
 <body>
     <!-- Header -->
-    <header class="container-fluid">
+    <header class="container-fluid sticky-top bg-light">
         <!-- top header -->
         <div class="row h-35px bg-dark">
             <div class="col-12 d-flex justify-content-end align-items-center">
@@ -36,7 +36,7 @@
                 <!-- nav left -->
                 <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
+                        <li class="nav-item dropdown">
                             <a class="nav-link active fw-bold" aria-current="page" href="#">Giochi
                                 <i class="fa-solid fa-angle-down"></i></a>
                         </li>
@@ -60,6 +60,21 @@
                             <a class="nav-link active fw-bold" href="#">Supporto
                                 <i class="fa-solid fa-angle-down"></i></a>
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <!-- nav right -->
                     <ul class="navbar-nav">
@@ -82,7 +97,7 @@
     </header>
 
     <!-- Jumbotron top-->
-    <section class="jumbotron-top container-fluid h-700px text-white d-flex flex-column justify-content-end">
+    <section class="jumbotron container-fluid h-700px text-white d-flex flex-column justify-content-end">
         <div class="row mb-3">
             <div class="col-12 col-lg-6">
                 <img class="h-50px" src="img/returnal-hero-banner-logo.png" alt="returnal logo">
@@ -145,26 +160,26 @@
         </div>
         <!-- PS5 accessories -->
         <div class="row">
-            <div class="col-4 col-md-2 offset-md-1">
+            <div class="col-4 col-md-2 offset-md-1 ab-accessories">
                 <img class="img-fluid" src="img/playstation-5-thumb.png" alt="ps5 img">
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 pb-2 ab-accessories">
                 <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg" alt="joystick img">
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 pb-2 ab-accessories">
                 <img class="img-fluid" src="img/headset-thumb.png" alt="headset img">
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 pb-2 ab-accessories">
                 <img class="img-fluid" src="img/remote-thumb.png" alt="remote img">
             </div>
-            <div class="col-4 col-md-2">
+            <div class="col-4 col-md-2 pb-2 ab-accessories">
                 <img class="img-fluid" src="img/camera-thumb.jpg" alt="cam img">
             </div>
         </div>
     </section>
 
-    <!-- Jumbotron bottom -->
-    <section class="jumbotron-bottom container-fluid h-600px text-white d-flex flex-column justify-content-end">
+    <!-- Banner -->
+    <section class="banner container-fluid h-600px text-white d-flex flex-column justify-content-end">
         <div class="row mb-5">
             <div class="col-12 col-lg-6">
                 <img class="h-200px" src="img/it-takes-two-logo.png" alt="it takes two logo">
@@ -181,7 +196,7 @@
     </section>
 
     <!-- New games -->
-    <section class="container-fluid py-5 bg-dark bg-gradient text-white">
+    <section class="container-fluid py-5 bg-dark text-white">
         <div class="row">
             <!-- section title -->
             <div class="col-12">
@@ -342,8 +357,8 @@
     <!-- PlayStation Plus -->
     <div class="container-fluid ab-bg-grey">
         <div class="row">
-            <div class="col-12 col-md-5">
-                <div class="d-flex flex-column justify-content-center">
+            <div class="col-12 col-md-5 offset-md-1 d-flex flex-column justify-content-center">
+                <div>
                     <img class="img-fluid my-4" src="img/ps-plus-logo.png" alt="ps plus logo">
                     <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili,
                         sconti
@@ -352,8 +367,8 @@
                 </div>
             </div>
 
-            <div class="col-md-6 offset-md-1 d-none d-md-block">
-                <img class="img-fluid " src="img/ps-plus-april-monthly-games-featured-image-block.png"
+            <div class="col-md-6 d-none d-md-block">
+                <img class="img-fluid h-400px" src="img/ps-plus-april-monthly-games-featured-image-block.png"
                     alt="ps plu games">
             </div>
         </div>
@@ -386,8 +401,8 @@
     <!-- PlayStation Now -->
     <div class="container-fluid ab-bg-blue text-white">
         <div class="row">
-            <div class="col-12 col-md-5">
-                <div class="d-flex flex-column justify-content-center">
+            <div class="col-12 col-md-5 offset-md-1 d-flex flex-column justify-content-center">
+                <div>
                     <img class="img-fluid my-4" src="img/ps-now-logo-two-column.png" alt="ps now logo">
                     <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4,PS3 e PS2 su
                         PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
@@ -395,14 +410,14 @@
                 </div>
             </div>
 
-            <div class="col-md-6 offset-md-1 d-none d-md-block">
-                <img class="img-fluid " src="img/ps-now-april-featured-image-block.png" alt="ps now games">
+            <div class="col-md-5 offset-md-1 d-none d-md-block">
+                <img class="img-fluid h-400px" src="img/ps-now-april-featured-image-block.png" alt="ps now games">
             </div>
         </div>
     </div>
 
     <!-- Social -->
-    <section class="container-md py-5">
+    <section class="container-sm py-5">
         <div class="row text-center mb-3">
             <h2>Seguici sui social media</h2>
         </div>
