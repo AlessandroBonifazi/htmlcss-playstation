@@ -43,21 +43,23 @@ header:hover #hidden-row{
     cursor: pointer;
 }
 
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
 .ab-games {
     position: relative;
     left: 0px;
     bottom: 0px;
-}
-
-.btn:hover {
-    transform: scale(1.05);
-    transition: 0.2s;
+    padding: 3px;
 }
 
 .ab-games:hover {
     animation: move-up 0.5s linear;
     animation-fill-mode: forwards;
     cursor: pointer;
+    border: 2px solid #00439c;
 }
 @keyframes move-up {
     0% {
