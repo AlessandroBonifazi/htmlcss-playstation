@@ -31,8 +31,9 @@ a {
 
 .dropdown-menu {
     border-top: 0px;
+    position: absolute;
     left: 0%;
-    top: 100%;
+    top: 75%;
 }
 
 /* Hover */
