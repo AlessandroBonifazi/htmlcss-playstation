@@ -16,7 +16,7 @@
 
 <body>
     <!-- Header -->
-    <header class="container-fluid sticky-top bg-light">
+    <header class="container-fluid sticky-top bg-white">
         <!-- top header -->
         <div class="row h-35px bg-dark">
             <div class="col-12 d-flex justify-content-end align-items-center">
@@ -25,73 +25,228 @@
         </div>
         <!-- nav -->
         <div class="row align-items-center">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand t-black fw-bold" href="#">
-                    <img src="img/play_logo.svg" alt="ps logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- nav left -->
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" aria-current="page" href="#">Giochi
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">Hardware
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">Servizi
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">Novità
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">Fai acquisti
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">Supporto
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                    </ul>
-                    <!-- nav right -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">My Playstation
-                                <i class="fa-solid fa-angle-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="btn btn-dark">Accedi</div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active fw-bold" href="#">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!-- hidden row -->
-        <div id="hidden-row" class="row text-center bg-white">
-            <div class="col-lg-2 offset-lg-3">
-                <img src="img/play-menu-ico.png" alt="ps menu icon">
-                <h5>PS5</h5>
-            </div>
-            <div class="col-lg-2">
-                <img src="img/play-menu-ico.png" alt="ps menu icon">
-                <h5>PS4</h5>
-            </div>
-            <div class="col-lg-2">
-                <img src="img/play-menu-ico.png" alt="ps menu icon">
-                <h5>PS3</h5>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand t-black fw-bold" href="#">
+                        <img src="img/play_logo.svg" alt="ps logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- nav left -->
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" aria-current="page" href="#">Giochi
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">Hardware
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">Servizi
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">Novità
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">Fai acquisti
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">Supporto
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- nav right -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active fw-bold" href="#">My Playstation
+                                    <i class="fa-solid fa-angle-down"></i></a>
+                                <!-- hidden nav -->
+                                <ul class="dropdown-menu w-100 dropdown-menu-white"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li class="text-center bg-white d-flex justify-content-center">
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS5</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS4</h5>
+                                        </div>
+                                        <div>
+                                            <img src="img/play-menu-ico.png" alt="ps menu icon">
+                                            <h5>PS3</h5>
+                                        </div>
+                                    </li>
+                                    <hr>
+                                    <li class="d-flex justify-content-center">
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                        <a class="mx-2" href="#">Link Games</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <div class="btn btn-dark">Accedi</div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold" href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -358,7 +513,7 @@
     </section>
 
     <!-- PlayStation Plus -->
-    <div class="container-fluid ab-bg-grey">
+    <div class="container-fluid ab-bg-grey bg-gradient">
         <div class="row">
             <div class="col-12 col-md-5 offset-md-1 d-flex flex-column justify-content-center">
                 <div>
@@ -402,7 +557,7 @@
     </section>
 
     <!-- PlayStation Now -->
-    <div class="container-fluid ab-bg-blue text-white">
+    <div class="container-fluid ab-bg-blue bg-gradient text-white">
         <div class="row">
             <div class="col-12 col-md-5 offset-md-1 d-flex flex-column justify-content-center">
                 <div>
